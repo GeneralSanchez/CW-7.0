@@ -1,7 +1,13 @@
 class Main 
 {
+  //----------------------------------------
+  // Instantiates a derived class and invokes its inherited and
+  // local methods
+  //----------------------------------------
   public static void main(String[] args) 
   {
-    System.out.println("Hello world!");
+    Dictionary2 webster = new Dictionary2 (1500,52500);
+    webster.pageMessage();
+    webster.defentionMessage();
   }
 }
